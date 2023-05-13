@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# files not to be included in the git repo
+src/components/canvas/*
