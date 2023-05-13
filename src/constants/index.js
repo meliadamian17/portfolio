@@ -23,6 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    C,
+    java,
+    python,
+    express,
+    vite,
+    uft, 
   } from "../assets";
   
   export const navLinks = [
@@ -50,62 +56,66 @@ import {
       title: "Backend Developer",
       icon: backend,
     },
+    {
+      title: "Student",
+      icon: uft,
+    },
   
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "C",
+      icon: C,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Java",
+      icon: java,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Express JS",
+      icon: express,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "HTML 3",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "Vite",
+      icon: vite,
     },
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+
+
   ];
   
   const experiences = [
