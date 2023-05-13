@@ -46,7 +46,8 @@ const About = () => {
     <motion.p 
     variants ={fadeIn("","",0.1,1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-      finish later
+      I'm a full-time student at the University of Toronto specializing in Software Engineering and I have a passion for building software and learning new technologies. 
+      I am an eager learner and I am always looking for opportunities to expand my knowledge and skillset. Feel free to <a id="jump_to_contact" href="#contact">reach out (click me)</a> to me if you have any questions or just want to chat!
     </motion.p>
 
     <div className="mt-20 flex flex-wrap gap-10 justify-center">

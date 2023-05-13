@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -19,8 +18,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Damian</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            (INTRO) <br className='sm:block hidden' />
-            (further intro)
+            I'm a full-time student and developer<br className='sm:block hidden' />
+            with a passion for learning and creating.
           </p>
         </div>
       </div>

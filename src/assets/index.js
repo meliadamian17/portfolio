@@ -36,6 +36,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import code_comp from "./code_comp.png";
 
 export {
   logo,
@@ -71,6 +72,7 @@ export {
   python,
   express,
   vite,
-  uft
+  uft,
+  code_comp
   
 };
