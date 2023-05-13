@@ -25,3 +25,6 @@ dist-ssr
 
 # files not to be included in the git repo
 src/components/canvas/*
+src/components/Experience.jsx
+src/components/Loader.jsx
+src/components/Feedbacks.jsx
