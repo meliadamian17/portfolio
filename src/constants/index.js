@@ -206,7 +206,7 @@ import {
         
       ],
       image: code_comp,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/meliadamian17/online_code_comp/",
     },
    
   ];
