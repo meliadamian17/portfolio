@@ -7,7 +7,6 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import uft from "./uft.png";
-
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -26,8 +25,8 @@ import java from "./tech/java.png";
 import python from "./tech/python.png";
 import express from "./tech/express.png";
 import vite from "./tech/vite.png";
-
-
+import shoptrack from "./logo_no_wm.png"
+import twars from "./company/twars.png"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -73,6 +72,9 @@ export {
   express,
   vite,
   uft,
-  code_comp
+  code_comp,
+  twars,
+  shoptrack
+
   
 };

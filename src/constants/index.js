@@ -1,28 +1,13 @@
 import {
-    mobile,
     backend,
-    creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
     C,
     java,
     python,
@@ -30,6 +15,8 @@ import {
     vite,
     uft, 
     code_comp,
+    twars,
+    shoptrack
   } from "../assets";
   
   export const navLinks = [
@@ -121,45 +108,20 @@ import {
   
   const experiences = [
     {
-      title: "",
-      company_name: "",
-      icon: starbucks,
+      title: "Developer / Plugin Engineer",
+      company_name: "Treasurewars",
+      icon: twars,
       iconBg: "#383E56",
-      date: "",
+      date: "July 2023",
       points: [
-        
+              "Developed and maintained 20+ Minecraft plugins, enhancing gameplay and driving 15% higher player retention.",
+              "Engineered load-balancing proxy with BungeeCord, resulting in 30% faster connections and reduced latency.",
+              "Collaborated with a 3-person development team for code reviews and best practice adherence.",
+              "Managed databases for 10,000+ players' data, optimizing performance and ensuring stability.",
+              "Researched and integrated new technologies, boosting plugin performance by 25% and maintaining compatibility."
       ],
     },
-    {
-      title: "",
-      company_name: "",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "",
-      points: [
-        
-      ],
-    },
-    {
-      title: "",
-      company_name: "",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "",
-      points: [
-        
-      ],
-    },
-    {
-      title: "",
-      company_name: "",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "",
-      points: [
-        
-      ],
-    },
+   
   ];
   
   const testimonials = [
@@ -207,6 +169,24 @@ import {
       ],
       image: code_comp,
       source_code_link: "https://github.com/meliadamian17/online_code_comp/",
+    },
+    {
+      name: "Shop Track",
+      description:
+        "E-Commerce App Prototype with full order-based functionality for Store Owners and Shoppers.",
+      tags: [
+        {
+          name: "Java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "green-text-gradient",
+        },
+        
+      ],
+      image: shoptrack,
+      source_code_link: "https://github.com/meliadamian17/ShopTrack",
     },
    
   ];
